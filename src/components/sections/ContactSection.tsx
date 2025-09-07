@@ -30,12 +30,12 @@ export function ContactSection() {
             Ready to get started?
             <br />
             <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              Let's talk
+              Let&apos;s talk
             </span>
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
             Have questions about our platform? Want to see a demo? 
-            We're here to help you succeed.
+            We&apos;re here to help you succeed.
           </p>
         </motion.div>
 

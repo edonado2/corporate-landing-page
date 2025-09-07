@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, ChevronRight, Star, Quote } from 'lucide-react';
+import Image from 'next/image';
 import { Testimonial } from '@/types';
 
 const testimonials: Testimonial[] = [
@@ -149,9 +150,11 @@ export function TestimonialsSection() {
 
                   {/* Author */}
                   <div className="flex items-center justify-center space-x-4">
-                    <img
+                    <Image
                       src={testimonials[currentIndex].avatar}
                       alt={testimonials[currentIndex].name}
+                      width={64}
+                      height={64}
                       className="w-16 h-16 rounded-full object-cover ring-4 ring-white dark:ring-gray-700 shadow-lg"
                     />
                     <div className="text-left">
