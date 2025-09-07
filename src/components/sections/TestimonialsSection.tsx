@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, ChevronRight, Star, Quote } from 'lucide-react';
 import Image from 'next/image';
 import { Testimonial } from '@/types';
-
+//Testimonials
 const testimonials: Testimonial[] = [
   {
     id: '1',
@@ -13,7 +13,7 @@ const testimonials: Testimonial[] = [
     role: 'CTO',
     company: 'TechCorp',
     content: 'This platform has completely transformed how we build and deploy applications. The performance improvements alone have saved us thousands of hours.',
-    avatar: 'https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
+    avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah',
     rating: 5
   },
   {
@@ -22,7 +22,7 @@ const testimonials: Testimonial[] = [
     role: 'Lead Developer',
     company: 'StartupXYZ',
     content: 'The developer experience is incredible. Everything just works out of the box, and the documentation is top-notch. Highly recommended!',
-    avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80',
+    avatar:  'https://api.dicebear.com/7.x/avataaars/svg?seed=Michael',
     rating: 5
   },
   {
@@ -31,7 +31,7 @@ const testimonials: Testimonial[] = [
     role: 'Product Manager',
     company: 'InnovateLab',
     content: 'We\'ve reduced our deployment time by 80% and our team productivity has increased significantly. The analytics dashboard gives us incredible insights.',
-    avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80',
+    avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Emily',
     rating: 5
   },
   {
@@ -40,7 +40,7 @@ const testimonials: Testimonial[] = [
     role: 'Founder',
     company: 'NextGen Apps',
     content: 'The security features and compliance tools are exactly what we needed for our enterprise clients. Peace of mind is priceless.',
-    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
+    avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=David',
     rating: 5
   },
   {
@@ -49,7 +49,7 @@ const testimonials: Testimonial[] = [
     role: 'Engineering Director',
     company: 'ScaleUp Inc',
     content: 'The global infrastructure and edge computing capabilities have allowed us to serve customers worldwide with lightning-fast performance.',
-    avatar: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80',
+    avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Lisa',
     rating: 5
   }
 ];
