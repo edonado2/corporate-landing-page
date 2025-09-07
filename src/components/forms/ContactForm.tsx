@@ -67,7 +67,7 @@ export function ContactForm() {
             Get in Touch
           </h3>
           <p className="text-gray-600 dark:text-gray-300">
-            Ready to get started? Send us a message and we'll get back to you within 24 hours.
+            Ready to get started? Send us a message and we&apos;ll get back to you within 24 hours.
           </p>
         </div>
 
